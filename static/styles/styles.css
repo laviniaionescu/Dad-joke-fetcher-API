@@ -1,0 +1,89 @@
+
+.welcome-text {
+  font-size: 30px;
+  font-family: verdana;
+}
+
+.click-text {
+  font-size: 20px;
+}
+
+.joke-text {
+  font-size: 20px;
+}
+
+.joke-button {
+  font-size: 15px;
+  color: white;
+  background-color: green;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px grey;
+}
+
+.joke-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.home-button {
+  font-size: 15px;
+  color: white;
+  background-color: rgb(87, 103, 167);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px grey;
+  margin-right: 20px;
+}
+
+.home-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.another-button {
+  font-size: 15px;
+  color: black;
+  background-color: rgb(254, 214, 70);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px grey;
+}
+
+.another-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.home-doge-container {
+  background-image: url('../doge-main.jpg');
+  width: 1500px;
+  height: 630px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jok-doge-container {
+  background-image: url('../doge-jok.png');
+  width: 1500px;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

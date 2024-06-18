@@ -1,0 +1,10 @@
+{% extends "layout_template.html" %}
+{% block content %}
+  <p class="welcome-text">Welcome to Dad Jokes!</p>
+  <p class="click-text">Click down there for the good stuff</p>
+  <a href="{{ url_for('jokepage')}}"><button class="joke-button">Over here</button></a>
+
+  <br></br>
+  
+  <div class="home-doge-container"></div>
+{% endblock %}

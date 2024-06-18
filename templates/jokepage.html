@@ -1,0 +1,10 @@
+{% extends "layout_template.html" %}
+{% block content %}
+  <p class="joke-text">{{ joke }}</p>
+  <a href="{{ url_for('homepage')}}"><button class="home-button">Home</button></a>
+  <a href="{{ url_for('jokepage')}}"><button class="another-button">Another joke</button></a>
+
+  <br></br>
+
+  <div class="jok-doge-container"></div>
+{% endblock %}
